@@ -1,12 +1,13 @@
 <!--
   ┌──────────────────────────────────────────────────────────────┐
   │  STILL TO FIX:                                               │
-  │   · the 3 repo links in "selected work" are guesses          │
+  │   · the 3 repo links / pin cards use guessed repo names      │
   │   · YOUR_CREDLY_HANDLE in the cert badge                     │
   │   · LinkedIn URL still points at the old handle              │
+  │   · add docs/architecture.png (see the Architecture section) │
   │                                                              │
-  │  The snake needs .github/workflows/snake.yml committed too,  │
-  │  otherwise that image stays broken. See the other file.      │
+  │  No contribution widgets by design — nothing here depends    │
+  │  on commit frequency.                                        │
   │                                                              │
   │  Palette: bg 0D1117 · cyan 00F0FF · magenta FF2E97           │
   └──────────────────────────────────────────────────────────────┘
@@ -25,6 +26,7 @@
 <a href="https://www.credly.com/users/YOUR_CREDLY_HANDLE">
   <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_%E2%80%93_Associate-0D1117?style=for-the-badge&labelColor=0D1117&color=FF9900" />
 </a>
+<img src="https://img.shields.io/badge/B.Sc._Computer_Engineering-AAST_2026-0D1117?style=for-the-badge&labelColor=0D1117&color=9D4EDD" />
 
 </div>
 
@@ -34,7 +36,7 @@
 
 I design **event-driven serverless systems on AWS** and move data through them — ETL, migration, and the BI layer on top.
 
-Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions Architect – Associate**. Most recently customized Dynamics 365 CRM for a public-sector line of business at **ejada**.
+Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions Architect – Associate**. At **ejada** I customized Dynamics 365 CRM for a public-sector line of business — JavaScript form logic, Ribbon Workbench command bars, and Dataverse Web API calls. Before that I ran contest network infrastructure for **ECPC**, imaging every contestant workstation and troubleshooting live under time pressure.
 
 📍 Alexandria, Egypt &nbsp;·&nbsp; 🌍 Open to relocation & remote &nbsp;·&nbsp; 📬 **abdullah.aa03@gmail.com**
 
@@ -51,21 +53,12 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 **Data & Databases**
 
 <img src="https://skillicons.dev/icons?i=python,mysql,postgres,mongodb&theme=dark" />
-<br>
-<img src="https://img.shields.io/badge/Informatica-0D1117?style=flat-square&labelColor=0D1117&color=FF2E97" />
-<img src="https://img.shields.io/badge/Power_BI-0D1117?style=flat-square&labelColor=0D1117&color=FF2E97" />
-<img src="https://img.shields.io/badge/Pandas-0D1117?style=flat-square&labelColor=0D1117&color=FF2E97" />
-<img src="https://img.shields.io/badge/Matplotlib-0D1117?style=flat-square&labelColor=0D1117&color=FF2E97" />
 
 **Languages & Frameworks**
 
-<img src="https://skillicons.dev/icons?i=python,js,cs,java,nodejs,express,react,nextjs,flutter,unity&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,cs,java,nodejs,express,react,nextjs,flutter,unity&theme=dark" />
 
-**Enterprise / CRM**
-
-<img src="https://img.shields.io/badge/Dynamics_365-0D1117?style=flat-square&labelColor=0D1117&color=9D4EDD" />
-<img src="https://img.shields.io/badge/Power_Platform-0D1117?style=flat-square&labelColor=0D1117&color=9D4EDD" />
-<img src="https://img.shields.io/badge/Dataverse_Web_API-0D1117?style=flat-square&labelColor=0D1117&color=9D4EDD" />
+<sub>Also working in **Informatica** (ETL & migration) · **Power BI** · **Pandas / Matplotlib** · **Dynamics 365**, **Power Platform** & **Dataverse Web API**</sub>
 
 </div>
 
@@ -73,28 +66,42 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 
 ## `>` selected work
 
+<div align="center">
+
+<a href="https://github.com/abdullah-attia/serverless-image-pipeline">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=abdullah-attia&repo=serverless-image-pipeline&bg_color=0D1117&title_color=FF2E97&text_color=C9D1D9&icon_color=00F0FF&hide_border=true" />
+</a>
+<a href="https://github.com/abdullah-attia/aerotwin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=abdullah-attia&repo=aerotwin&bg_color=0D1117&title_color=FF2E97&text_color=C9D1D9&icon_color=00F0FF&hide_border=true" />
+</a>
+
+</div>
+
 | Project | What it does | Stack |
 |---|---|---|
-| **[AI-Driven Serverless Image Pipeline](https://github.com/abdullah-attia/serverless-image-pipeline)** | Fully event-driven AWS pipeline — browser uploads via S3 presigned URLs, triggering automatic resizing and Rekognition label detection, with metadata persisted to DynamoDB. Cut package size and cold starts by loading dependencies into Lambda's `/tmp` at runtime. | `Lambda` `S3` `API Gateway` `Rekognition` `DynamoDB` |
-| **[Aerotwin](https://github.com/abdullah-attia/aerotwin)** | Airport digital shadow: discrete-event simulation of passenger flow through check-in and security using live flight data, surfacing KPIs that pinpoint bottlenecks. A PPO agent tunes staffing and desk allocation against IATA Level-of-Service targets. | `Unity` `Next.js` `Express` `PostgreSQL` `PPO` |
-| **[Agricultural Monitoring Robot](https://github.com/abdullah-attia/agri-monitoring-robot)** | Raspberry Pi rover that captures field imagery and runs a custom-trained YOLO model to detect crop disease, paired with a Flutter app delivering real-time stats and treatment recommendations. | `Raspberry Pi` `Python` `YOLO` `Flutter` |
+| **[AI-Driven Serverless Image Pipeline](https://github.com/abdullah-attia/serverless-image-pipeline)** | Fully event-driven AWS pipeline — browser uploads via S3 presigned URLs, triggering automatic resizing and Rekognition label detection, with metadata persisted to DynamoDB. Loaded dependencies into Lambda's `/tmp` at runtime to cut package size and cold starts; debugged S3 SigV4/CORS failures for secure direct-from-browser uploads. | `Lambda` `S3` `API Gateway` `Rekognition` `DynamoDB` `IAM` |
+| **[Aerotwin](https://github.com/abdullah-attia/aerotwin)** | Airport digital shadow: discrete-event simulation of passenger flow through check-in and security using live flight data, surfacing KPIs that pinpoint bottlenecks. A PPO agent tunes staffing and desk allocation against IATA Level-of-Service targets, with results written up via an LLM. | `Unity` `Next.js` `Express` `PostgreSQL` `PPO` |
+| **[Agricultural Monitoring Robot](https://github.com/abdullah-attia/agri-monitoring-robot)** | Raspberry Pi rover capturing field imagery through onboard camera and sensors, running a custom-trained YOLO model to detect crop disease, paired with a Flutter app delivering real-time stats and treatment recommendations. | `Raspberry Pi` `Python` `YOLO` `Flutter` |
 
 <br>
 
-## `>` activity
+## `>` architecture
+
+The serverless pipeline, end to end — presigned upload, event trigger, inference, persistence.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/abdullah-attia/abdullah-attia/output/github-snake.svg" width="100%" alt="contribution snake" />
+<img src="https://raw.githubusercontent.com/abdullah-attia/serverless-image-pipeline/main/docs/architecture.png" width="85%" alt="Serverless image pipeline architecture" />
 
-<br><br>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abdullah-attia&bg_color=0D1117&color=00F0FF&line=FF2E97&point=9D4EDD&area=true&area_color=9D4EDD&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
+<br>
 
-<br><br>
+## `>` currently
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=abdullah-attia&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF2E97&icon_color=00F0FF&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah-attia&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF2E97&text_color=C9D1D9&langs_count=8" alt="languages" />
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=1000&color=FF2E97&center=true&vCenter=true&width=620&height=45&lines=Deepening+IaC+%E2%80%94+Terraform+%26+CloudFormation;Building+out+the+data+engineering+side;Open+to+Cloud+%2F+Data+Engineer+roles+%E2%80%94+let's+talk" alt="Currently" />
 
 </div>
 
