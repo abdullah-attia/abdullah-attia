@@ -68,7 +68,7 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 
 <div align="center">
 
-<a href="https://github.com/abdullah-attia/serverless-image-pipeline">
+<a href="https://github.com/abdullah-attia/Cloud_Image_Processor">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=abdullah-attia&repo=serverless-image-pipeline&bg_color=0D1117&title_color=FF2E97&text_color=C9D1D9&icon_color=00F0FF&hide_border=true" />
 </a>
 <a href="https://github.com/abdullah-attia/aerotwin">
@@ -79,21 +79,10 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[AI-Driven Serverless Image Pipeline](https://github.com/abdullah-attia/serverless-image-pipeline)** | Fully event-driven AWS pipeline — browser uploads via S3 presigned URLs, triggering automatic resizing and Rekognition label detection, with metadata persisted to DynamoDB. Loaded dependencies into Lambda's `/tmp` at runtime to cut package size and cold starts; debugged S3 SigV4/CORS failures for secure direct-from-browser uploads. | `Lambda` `S3` `API Gateway` `Rekognition` `DynamoDB` `IAM` |
+| **[AI-Driven Serverless Image Pipeline](https://github.com/abdullah-attia/Cloud_Image_Processor
+)** | Fully event-driven AWS pipeline — browser uploads via S3 presigned URLs, triggering automatic resizing and Rekognition label detection, with metadata persisted to DynamoDB. Loaded dependencies into Lambda's `/tmp` at runtime to cut package size and cold starts; debugged S3 SigV4/CORS failures for secure direct-from-browser uploads. | `Lambda` `S3` `API Gateway` `Rekognition` `DynamoDB` `IAM` |
 | **[Aerotwin](https://github.com/abdullah-attia/aerotwin)** | Airport digital shadow: discrete-event simulation of passenger flow through check-in and security using live flight data, surfacing KPIs that pinpoint bottlenecks. A PPO agent tunes staffing and desk allocation against IATA Level-of-Service targets, with results written up via an LLM. | `Unity` `Next.js` `Express` `PostgreSQL` `PPO` |
-| **[Agricultural Monitoring Robot](https://github.com/abdullah-attia/agri-monitoring-robot)** | Raspberry Pi rover capturing field imagery through onboard camera and sensors, running a custom-trained YOLO model to detect crop disease, paired with a Flutter app delivering real-time stats and treatment recommendations. | `Raspberry Pi` `Python` `YOLO` `Flutter` |
-
-<br>
-
-## `>` architecture
-
-The serverless pipeline, end to end — presigned upload, event trigger, inference, persistence.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/abdullah-attia/serverless-image-pipeline/main/docs/architecture.png" width="85%" alt="Serverless image pipeline architecture" />
-
-</div>
+| **[Agricultural Monitoring Robot](https://github.com/abdullah-attia/Agricultural_monitoring_robot)** | Raspberry Pi rover capturing field imagery through onboard camera and sensors, running a custom-trained YOLO model to detect crop disease, paired with a Flutter app delivering real-time stats and treatment recommendations. | `Raspberry Pi` `Python` `YOLO` `Flutter` |
 
 <br>
 
@@ -111,7 +100,7 @@ The serverless pipeline, end to end — presigned upload, event trigger, inferen
 
 <div align="center">
 
-<a href="https://linkedin.com/in/abdullah-ahmed73a6501bb">
+<a href="https://linkedin.com/in/abdullah-ahmed-cloud">
   <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" />
 </a>
 <a href="mailto:abdullah.aa03@gmail.com">
