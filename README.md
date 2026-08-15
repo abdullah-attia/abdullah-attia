@@ -13,7 +13,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:9D4EDD,100:FF2E97&height=190&section=header&text=Abdullah%20Ahmed&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Cloud%20%26%20Data%20Engineer&descAlignY=53&descSize=18" width="100%" alt="Abdullah Ahmed — Cloud & Data Engineer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:9D4EDD,100:FF2E97&height=190&section=header&text=Abdullah%20Ahmed&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Cloud%20%7C%20Data%20Engineer&descAlignY=53&descSize=18" width="100%" alt="Abdullah Ahmed — Cloud and Data Engineer" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=640&height=60&lines=AWS+Certified+Solutions+Architect+%E2%80%93+Associate;Serverless+%26+event-driven+systems+on+AWS;ETL+%7C+Data+Migration+%7C+BI+Pipelines;Open+to+Cloud+%26+Data+Engineering+roles" alt="Typing SVG" />
 
