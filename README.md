@@ -13,18 +13,18 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:9D4EDD,100:FF2E97&height=190&section=header&text=Abdullah%20Ahmed&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Cloud%20%26%20Data%20Engineer&descAlignY=53&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:9D4EDD,100:FF2E97&height=190&section=header&text=Abdullah%20Ahmed&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Cloud%20%26%20Data%20Engineer&descAlignY=53&descSize=18" width="100%" alt="Abdullah Ahmed — Cloud & Data Engineer" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=640&height=60&lines=AWS+Certified+Solutions+Architect+%E2%80%93+Associate;Serverless+%26+event-driven+systems+on+AWS;ETL+%7C+Data+Migration+%7C+BI+Pipelines;Open+to+Cloud+%26+Data+Engineering+roles" alt="Typing SVG" />
 
 <br>
 
-<a href="https://www.credly.com/users/YOUR_CREDLY_HANDLE"><img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-0D1117?style=for-the-badge&labelColor=0D1117&color=FF9900" /></a>
-<img src="https://img.shields.io/badge/B.Sc._Computer_Engineering-AAST_2026-0D1117?style=for-the-badge&labelColor=0D1117&color=9D4EDD" />
+<a href="https://www.credly.com/users/YOUR_CREDLY_HANDLE"><img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-0D1117?style=for-the-badge&labelColor=0D1117&color=FF9900" alt="AWS Certified Solutions Architect Associate" /></a>
+<img src="https://img.shields.io/badge/B.Sc._Computer_Engineering-AAST_2026-0D1117?style=for-the-badge&labelColor=0D1117&color=9D4EDD" alt="BSc Computer Engineering, AAST 2026" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:FF2E97&height=3&section=header" width="100%" />
+---
 
 ## `>` whoami
 
@@ -42,15 +42,15 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 
 **Cloud & Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=aws,dynamodb,docker,linux,bash,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=aws,dynamodb,docker,linux,bash,git,github&theme=dark" alt="Cloud and infrastructure stack" />
 
 **Data & Databases**
 
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,mongodb&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,mysql,postgres,mongodb&theme=dark" alt="Data and database stack" />
 
 **Languages & Frameworks**
 
-<img src="https://skillicons.dev/icons?i=js,cs,java,nodejs,express,react,nextjs,flutter,unity&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,cs,java,nodejs,express,react,nextjs,flutter,unity&theme=dark" alt="Languages and frameworks" />
 
 <sub>Also working in <b>Informatica</b> (ETL & migration) · <b>Power BI</b> · <b>Pandas / Matplotlib</b> · <b>Dynamics 365</b>, <b>Power Platform</b> & <b>Dataverse Web API</b></sub>
 
@@ -82,10 +82,10 @@ Computer Engineering graduate (AAST, Alexandria) and **AWS Certified Solutions A
 
 <div align="center">
 
-<a href="https://linkedin.com/in/abdullah-ahmed-cloud"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" /></a>
-<a href="mailto:abdullah.aa03@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF" /></a>
-<a href="https://github.com/abdullah-attia"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF" /></a>
+<a href="https://linkedin.com/in/abdullah-ahmed-cloud"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn" /></a>
+<a href="mailto:abdullah.aa03@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF" alt="Email" /></a>
+<a href="https://github.com/abdullah-attia"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" /></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2E97,50:9D4EDD,100:00F0FF&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2E97,50:9D4EDD,100:00F0FF&height=120&section=footer" width="100%" alt="footer" />
